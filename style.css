@@ -1,0 +1,25 @@
+h2 {
+    color: red;
+}
+
+h3 {
+    margin: 20px;
+    background: lightblue;
+}
+
+div {
+    width: 200px;
+    border: 2px solid red;
+    /* Using this will look better */
+    /* transition:  width 3000ms; */
+    transition: width .2s;
+    padding: 10px;
+}
+
+div:hover {
+    width: 600px;
+}
+
+p {
+    padding: 10px;
+}
